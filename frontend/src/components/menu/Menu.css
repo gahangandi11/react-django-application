@@ -1,0 +1,54 @@
+
+.menu-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .logo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-weight: bold;
+        gap: 10px;
+        padding: 10px;
+
+        img{
+            width: 100px;
+            height: 100px;
+
+        }
+    }
+
+    .menu{
+
+  
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+    .listItem{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 5px;
+
+        &:hover{
+            background-color: #384256;
+        }
+
+        img{
+            width: 20px;
+            height: 20px;
+        }
+
+    }
+
+    .logout:hover{
+        cursor: pointer;
+    }
+   
+}
+
+}

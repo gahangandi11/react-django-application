@@ -1,0 +1,13 @@
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+
+    border-bottom: 2px solid #a8b0c0;
+  
+  }
+  
+  
